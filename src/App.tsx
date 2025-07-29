@@ -183,7 +183,7 @@ function App() {
     {/* Person image */}
     <div className="flex-shrink-0">
       <img
-        src="my_image"
+        src={my_image}
         alt="Soham Patil"
         className="w-24 h-24 rounded-full object-cover border-2 border-white/50"
       />

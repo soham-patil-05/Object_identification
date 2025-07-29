@@ -5,6 +5,7 @@ import ObjectResults from './components/ObjectResults';
 import ErrorDisplay from './components/ErrorDisplay';
 import LoadingSpinner from './components/LoadingSpinner';
 import { detectObject } from './services/geminiService';
+import my_image from './images/soham.png';
 
 export interface DetectionResult {
   objectName: string;
@@ -182,7 +183,7 @@ function App() {
     {/* Person image */}
     <div className="flex-shrink-0">
       <img
-        src="../src/images/soham.png"
+        src="my_image"
         alt="Soham Patil"
         className="w-24 h-24 rounded-full object-cover border-2 border-white/50"
       />

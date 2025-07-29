@@ -1,5 +1,5 @@
 import React, { useState, useRef, useCallback } from 'react';
-import { Camera, Zap, AlertCircle, CheckCircle, RefreshCw, Eye } from 'lucide-react';
+import { Camera, Zap, AlertCircle, CheckCircle, RefreshCw, Eye,X } from 'lucide-react';
 import CameraCapture from './components/CameraCapture';
 import ObjectResults from './components/ObjectResults';
 import ErrorDisplay from './components/ErrorDisplay';
@@ -197,7 +197,7 @@ function App() {
       <div className="flex justify-center sm:justify-start space-x-4">
         {/* Instagram */}
         <a
-          href="https://www.instagram.com/your_instagram_username"
+          href="https://www.instagram.com/soham05___/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
@@ -210,7 +210,7 @@ function App() {
         </a>
         {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/in/your_linkedin_username"
+          href="https://www.linkedin.com/in/soham-patil-27a9b2287/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -223,10 +223,10 @@ function App() {
         </a>
         {/* Twitter */}
         <a
-          href="https://twitter.com/your_twitter_username"
+          href="https://x.com/Soham_patil_05"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Twitter"
+          aria-label="X"
           className="text-slate-600 hover:text-slate-800"
         >
           <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

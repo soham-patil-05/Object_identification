@@ -4,7 +4,7 @@ import { DetectionResult } from '../App';
 const API_ENDPOINT = 'https://seeyvlypujlkffbujczu.supabase.co/functions/v1/detect-objects';
 
 // Get your Supabase anon key from your project dashboard
-const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNlZXl2bHlwdWpsa2ZmYnVqY3p1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzU1NzEyNzcsImV4cCI6MjA1MTE0NzI3N30.YOUR_ACTUAL_KEY_HERE';
+const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY ;
 
 export async function detectObject(imageDataUrl: string): Promise<DetectionResult> {
   try {

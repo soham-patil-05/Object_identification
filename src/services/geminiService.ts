@@ -1,7 +1,7 @@
 import { DetectionResult } from '../App';
 
 // API endpoint for object detection
-const API_ENDPOINT = 'https://seeyvlypujlkffbujczu.supabase.co/functions/v1/detect-objects';
+const API_ENDPOINT = 'https://zxeznbtalwepjgufqkqc.supabase.co/functions/v1/detect-objects';
 
 // Get your Supabase anon key from your project dashboard
 const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY ;

@@ -1,7 +1,6 @@
 import { DetectionResult } from '../App';
 
-const API_ENDPOINT =
-  'https://zxeznbtalwepjgufqkqc.supabase.co/functions/v1/detect-objects';
+const API_ENDPOINT ='https://zxeznbtalwepjgufqkqc.supabase.co/functions/v1/detect-objects';
 
 const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
